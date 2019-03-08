@@ -48,7 +48,7 @@ A NodeList is Array "like" and has a few important methods that can be used to m
 
 5. What is a component?
 
-A component is a set of logic that combines HTML, CSS and JS properties to be re-used on various applications and projects. They allow programmers to create endless objects that serve various functions with as little coding as possible. I think of FB and all those posts. There are components making and unset number of user 'posts' possible without writing individual code for each one.
+A component is a set of logic that combines HTML, CSS and JS properties to be re-used on various applications and projects. They allow programmers to create endless objects that serve various functions with as little coding as possible. I think of FB and all those posts. There are components making and endless number of user 'posts' possible without writing individual code for each one.
 
 ### Git Set up
 
