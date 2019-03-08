@@ -29,7 +29,7 @@ class TabLink {
       // console.log(this.cards);
 
     // Add a click event that invokes this.selectTab
-    this.tabElement.addEventListener('click', selectTab());
+    this.tabElement.addEventListener('click', () => this.selectTab());
   }
 
   
@@ -49,7 +49,7 @@ class TabLink {
 
     // Iterate through the NodeList setting the display style each one to 'none'
     cards.forEach(function(card) {
-      card.classList.style.display('none');
+      card.style.display('none');
     })
     
     // Add a class of ".active-tab" to this.tabElement
@@ -65,11 +65,11 @@ class TabLink {
 class TabCard {
   constructor(cardElement){
     // Assign this.cardElement to the cardElement DOM reference
-    // this.cardElement;
+    this.cardElement = cardElement;
   }
   selectCard(){
     // Update the style of this.cardElement to display = "flex"
-    // this.cardElement;
+    this.cardElement.style.display('flex');
   }
 
 }
